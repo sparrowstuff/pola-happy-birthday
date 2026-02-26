@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	background-image: url('/pola-happy-birthday/assets/images/back.jpg');
+	background-image: url('../../assets/images/back.jpg');
 	color: black;
 	font-weight: 400;
 	display: flex;
