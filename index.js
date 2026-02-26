@@ -57,6 +57,5 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	// Начинаем наблюдать за всеми блоками с классом appearance-block
 	const observedBlocks = document.querySelectorAll('.appearance-block')
-	console.log(observedBlocks)
 	observedBlocks.forEach(el => observer.observe(el))
 })

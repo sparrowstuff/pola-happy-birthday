@@ -1,9 +1,9 @@
-@import url('/pola-happy-birthday/css/global/normalize.css');
-@import url('/pola-happy-birthday/css/global/variables.css');
-@import url('/pola-happy-birthday/css/global/container.css');
-@import url('/pola-happy-birthday/css/global/reboot.css');
-@import url('/pola-happy-birthday/css/global/fonts.css');
-@import url('/pola-happy-birthday/css/global/visually-hidden.css');
+@import url('./css/global/normalize.css');
+@import url('./css/global/variables.css');
+@import url('./css/global/container.css');
+@import url('./css/global/reboot.css');
+@import url('./css/global/fonts.css');
+@import url('./css/global/visually-hidden.css');
 
 @import url('./css/blocks/key-frames.css');
 @import url('./css/blocks/header.css');
