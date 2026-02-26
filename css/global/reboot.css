@@ -9,6 +9,7 @@ html {
 }
 
 body {
+	/* background-image: url('../../assets/images/back.jpg'); */
 	background-image: url('../../assets/images/back.jpg');
 	color: black;
 	font-weight: 400;
