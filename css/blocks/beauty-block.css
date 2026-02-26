@@ -27,6 +27,10 @@
 	grid-template-columns: repeat(3, 1fr);
 	gap: 0.62rem;
 	justify-content: center;
+
+	@media (max-width: 600px) {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 .beauty-block__img-1,
@@ -68,4 +72,16 @@
 	animation: imgAppearanceScale 1.5s ease-in-out 3s forwards;
 	border: unset;
 	pointer-events: none;
+
+	@media (max-width: 1024px) {
+		left: 35%;
+		top: 110%;
+		left: 48%;
+		top: 135%;
+	}
+
+	@media (max-width: 768px) {
+		position: static;
+		margin-top: 50px;
+	}
 }

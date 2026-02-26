@@ -1,10 +1,15 @@
 .creativity-block {
 	/* background-color: black; */
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	padding: 40px 0;
 	position: relative;
 	box-shadow: 11px -13px 20px 0px #f2aedd;
 	backdrop-filter: blur(5px);
+
+	@media (max-width: 768px) {
+		margin-bottom: 50px;
+		padding: 20px;
+	}
 }
 
 .creativity-block__wrapper {
@@ -32,6 +37,10 @@
 	color: transparent;
 	animation: textAppearance 1s ease-in forwards;
 	margin-bottom: 2rem;
+
+	@media (max-width: 768px) {
+		font-size: 1.5rem;
+	}
 }
 
 .creativity-block__img-block {
@@ -39,6 +48,10 @@
 	align-items: center;
 	gap: 1rem;
 	justify-content: center;
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+	}
 }
 
 .creativity-block__last-text {
@@ -60,6 +73,10 @@
 	color: transparent;
 	animation: textAppearance 1s ease-in forwards;
 	margin-bottom: 2rem;
+
+	@media (max-width: 768px) {
+		font-size: 2rem;
+	}
 }
 
 .creativity-block__img-1,

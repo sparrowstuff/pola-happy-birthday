@@ -2,6 +2,11 @@
 	margin-bottom: 100px;
 	padding: 40px 0;
 	position: relative;
+
+	@media (max-width: 768px) {
+		margin-bottom: 50px;
+		padding: 20px;
+	}
 }
 
 .humour-block__wrapper {
@@ -35,6 +40,10 @@
 		1px 1px 2px red,
 		0 0 1em blue,
 		0 0 0.2em blue;
+
+	@media (max-width: 768px) {
+		font-size: 1.5rem;
+	}
 }
 
 .humour-block__img-block {
@@ -88,4 +97,9 @@
 	opacity: 0;
 	animation: textAppearanceSlap 1.5s ease-in 3s forwards;
 	pointer-events: none;
+
+	@media (max-width: 768px) {
+		top: 80%;
+		left: 35%;
+	}
 }

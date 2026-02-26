@@ -1,6 +1,11 @@
 .video-block {
 	margin-bottom: 100px;
 	margin-top: 100px;
+
+	@media (max-width: 768px) {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
 }
 
 .video-block__wrapper {

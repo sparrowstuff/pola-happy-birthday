@@ -36,6 +36,10 @@
 		1px 1px 2px rgb(255, 255, 255),
 		0 0 1em blue,
 		0 0 0.2em blue;
+
+	@media (max-width: 768px) {
+		font-size: 2rem;
+	}
 }
 
 .style-block__gifts {
@@ -59,24 +63,44 @@
 .style-block.show .style-block__img-1 {
 	margin-bottom: 1.25rem;
 	animation: imgAppearanceStatic 1s ease-in forwards;
+
+	@media (max-width: 768px) {
+		margin-bottom: unset;
+	}
 }
 
 .style-block.show .style-block__img-2 {
 	margin-top: 1.25rem;
 	animation: imgAppearanceSlideTop 1s ease-in 0.5s forwards;
+
+	@media (max-width: 768px) {
+		margin-top: unset;
+	}
 }
 
 .style-block.show .style-block__img-3 {
 	margin-bottom: 2.25rem;
 	animation: imgAppearanceSlideTop 1s ease-in 1s forwards;
+
+	@media (max-width: 768px) {
+		margin-bottom: unset;
+	}
 }
 
 .style-block.show .style-block__img-4 {
 	margin-bottom: 1.25rem;
 	animation: imgAppearanceSlideBottom 1s ease-in 1.5s forwards;
+
+	@media (max-width: 768px) {
+		margin-bottom: unset;
+	}
 }
 
 .style-block.show .style-block__img-5 {
 	margin-top: 1.25rem;
 	animation: imgAppearanceStatic 1s ease-in 2s forwards;
+
+	@media (max-width: 768px) {
+		margin-top: unset;
+	}
 }

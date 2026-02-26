@@ -52,10 +52,11 @@ window.addEventListener('DOMContentLoaded', () => {
 				}
 			})
 		},
-		{ threshold: 0.4 }, // блок считается видимым, когда 40% его высоты в окне
+		{ threshold: 0.3 },
 	)
 
 	// Начинаем наблюдать за всеми блоками с классом appearance-block
 	const observedBlocks = document.querySelectorAll('.appearance-block')
+	console.log(observedBlocks)
 	observedBlocks.forEach(el => observer.observe(el))
 })

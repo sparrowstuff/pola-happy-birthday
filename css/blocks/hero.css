@@ -2,6 +2,10 @@
 	margin-top: 100px;
 	margin-bottom: 100px;
 	width: 100%;
+
+	@media (max-width: 768px) {
+		margin-bottom: 30px;
+	}
 }
 
 .hero__wrapper {
@@ -14,7 +18,7 @@
 
 .hero__name {
 	display: block;
-	font-size: 3rem;
+	font-size: clamp(1rem, 5vw, 3rem);
 	line-height: 100%;
 	text-align: center;
 	opacity: 0;
@@ -75,6 +79,7 @@
 	width: 70px;
 	height: 70px;
 	opacity: 0;
+	z-index: -1;
 }
 
 .hero__heart-1 {
