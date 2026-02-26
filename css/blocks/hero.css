@@ -1,0 +1,94 @@
+.hero {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 100%;
+}
+
+.hero__wrapper {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hero__name {
+	display: block;
+	font-size: 3rem;
+	line-height: 100%;
+	text-align: center;
+	opacity: 0;
+	font-family: 'Montserrat', 'Arial', sans-serif;
+
+	animation: nameAnimate 2s ease-in forwards;
+
+	margin-bottom: 40px;
+	backdrop-filter: blur(5px);
+	background-color: transparent;
+	padding: 10px 10px;
+	border-radius: 10px;
+	width: fit-content;
+
+	box-shadow: -2px -2px 8px 1px #16dbed;
+	transition:
+		scale 0.3s ease-in,
+		transform 0.3s ease-in;
+}
+
+.hero__name:hover {
+	scale: 1.08;
+	transform: rotate(30deg);
+}
+
+.hero__congratulation {
+	font-size: 2rem;
+	line-height: 100%;
+	text-align: center;
+	opacity: 0;
+
+	animation: congratulationAnimate 2s ease-in 1s forwards;
+
+	margin-bottom: 20px;
+	text-shadow:
+		1px 1px 2px red,
+		0 0 1em blue,
+		0 0 0.2em blue;
+}
+
+.hero__congratulation-text {
+	display: block;
+	font-size: 1.5rem;
+	line-height: 100%;
+	text-align: center;
+	text-shadow:
+		1px 1px 2px red,
+		0 0 1em rgb(98, 245, 255),
+		0 0 0.2em rgb(255, 38, 244);
+
+	opacity: 0;
+
+	animation: textSlideIn 1s ease-in 2s forwards;
+}
+
+.hero__heart-1,
+.hero__heart-2 {
+	width: 70px;
+	height: 70px;
+	opacity: 0;
+}
+
+.hero__heart-1 {
+	position: absolute;
+	top: 22%;
+	left: 10%;
+	transform: rotate(-30deg);
+	animation: heartAppearance 0.5s ease-in forwards;
+}
+
+.hero__heart-2 {
+	position: absolute;
+	top: 40%;
+	left: 15%;
+	transform: rotate(40deg);
+	animation: heartAppearance 0.8s ease-in 0.5s forwards;
+}

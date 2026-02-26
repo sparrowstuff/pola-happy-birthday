@@ -1,0 +1,39 @@
+:root {
+	/* colors */
+
+	--white: #ffffff;
+	--main: #282829;
+	--main-light: #38535d;
+	--main-dark: #222222;
+	--grey: #d6d6d6;
+	--grey-border: #d5c9be;
+
+	/* fonts */
+	--arial: 'Arial', sans-serif;
+	--prata: 'Prata', 'Arial', sans-serif;
+
+	/* font-sizes */
+
+	--link-size: 2.25rem;
+	--nav-link-size: 1rem;
+
+	--h1-size-big: 5rem;
+	--h1-size-small: 2.2rem;
+	--hero-description-size-big: 3.12rem;
+	--hero-description-size-small: 1.9rem;
+	--price-size: 2.5rem;
+	--price-size-small: 1.5rem;
+	--advantages-size-small: 1.1rem;
+
+	--form-title: 3.37rem;
+	--form-title-smaller: 2.5rem;
+	--form-title-400viewport: 2rem;
+	--input-size: 1.5rem;
+	--checkbox-text-size: 1.18rem;
+
+	--footer-link: 1.25rem;
+
+	/* transition */
+
+	--transition-main: 0.3s ease-in;
+}

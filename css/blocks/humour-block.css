@@ -1,0 +1,91 @@
+.humour-block {
+	margin-bottom: 100px;
+	padding: 40px 0;
+	position: relative;
+}
+
+.humour-block__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 3rem;
+	width: 100%;
+	height: 100%;
+}
+
+.humour-block__text {
+	color: white;
+	text-align: center;
+	font-size: 2.5rem;
+	line-height: 100%;
+	font-weight: 600;
+	font-family: 'Roboto', 'Arial', sans-serif;
+	background-image: linear-gradient(
+		to right bottom,
+		#237bff,
+		#339bc0,
+		#6b279c,
+		#c51561,
+		#16efcb
+	);
+	background-clip: text;
+	color: transparent;
+	animation: textAppearance 1s ease-in forwards;
+	text-shadow:
+		1px 1px 2px red,
+		0 0 1em blue,
+		0 0 0.2em blue;
+}
+
+.humour-block__img-block {
+	display: grid;
+	gap: 0.62rem;
+	align-items: center;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+}
+
+.humour-block__last-text {
+	margin-top: 2rem;
+	color: rgb(255, 20, 60);
+	text-align: center;
+	font-size: 2.5rem;
+	line-height: 100%;
+	font-weight: 600;
+}
+
+.humour-block__img-1,
+.humour-block__img-2,
+.humour-block__img-3,
+.humour-block__img-4 {
+	opacity: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.humour-block.show .humour-block__img-1 {
+	animation: imgAppearanceSlideLeft 1s ease-in 1s forwards;
+}
+
+.humour-block.show .humour-block__img-2 {
+	animation: imgAppearanceStatic 1.4s ease-in 1.2s forwards;
+}
+
+.humour-block.show .humour-block__img-3 {
+	animation: imgAppearScale 1.4s ease-in 1.4s forwards;
+}
+
+.humour-block.show .humour-block__img-4 {
+	animation: imgAppearanceStatic 1s ease-in 1.6s forwards;
+}
+
+.humour-block.show .humour-block__cool {
+	border: unset;
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	transform: translateX(-50%) rotate(-30deg);
+	opacity: 0;
+	animation: textAppearanceSlap 1.5s ease-in 3s forwards;
+	pointer-events: none;
+}

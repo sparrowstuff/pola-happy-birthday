@@ -1,0 +1,71 @@
+.beauty-block {
+	margin-bottom: 100px;
+}
+
+.beauty-block__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.beauty-block__text {
+	font-size: 2rem;
+	line-height: 100%;
+	text-align: left;
+	font-family: 'Bree', 'Arial', sans-serif;
+	font-weight: 400;
+	opacity: 0;
+	animation: textAppearance 1s ease-in 2.1s forwards;
+	text-shadow:
+		1px 1px 2px rgb(255, 255, 255),
+		0 0 1em blue,
+		0 0 0.2em blue;
+}
+
+.beauty-block__img-block {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 0.62rem;
+	justify-content: center;
+}
+
+.beauty-block__img-1,
+.beauty-block__img-2,
+.beauty-block__img-3,
+.beauty-block__img-4,
+.beauty-block__img-5 {
+	opacity: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.beauty-block.show .beauty-block__img-1 {
+	animation: imgAppearanceStatic 1s ease-in 1.2s forwards;
+}
+
+.beauty-block.show .beauty-block__img-2 {
+	animation: imgAppearanceSlideLeft 1.4s ease-in 1.5s forwards;
+}
+
+.beauty-block.show .beauty-block__img-3 {
+	animation: imgAppearScale 1.4s ease-in 1.8s forwards;
+}
+
+.beauty-block.show .beauty-block__img-4 {
+	animation: imgAppearanceStatic 1s ease-in 2.1s forwards;
+}
+
+.beauty-block.show .beauty-block__img-5 {
+	animation: imgAppearanceSlideRight 1s ease-in 2.4s forwards;
+}
+
+.beauty-block.show .beauty-block__wow-img {
+	position: absolute;
+	top: 103%;
+	opacity: 0;
+	left: 67%;
+	transform: rotate(15deg);
+	animation: imgAppearanceScale 1.5s ease-in-out 3s forwards;
+	border: unset;
+	pointer-events: none;
+}

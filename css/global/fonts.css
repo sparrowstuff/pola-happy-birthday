@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../../assets/fonts/roboto-condensed-light-italic.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../../assets/fonts/montserrat-regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Bree';
+	src: url('../../assets/fonts/BreeCYR-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}

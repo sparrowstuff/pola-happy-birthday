@@ -1,0 +1,16 @@
+.container {
+	max-width: 120rem;
+	padding: 0 1.87rem;
+	margin: 0 auto;
+	width: 100%;
+
+	@media (max-width: 48rem) {
+		padding: 0 1.25rem;
+		max-width: 48rem;
+	}
+
+	@media (max-width: 25rem) {
+		padding: 0 0.62rem;
+		max-width: 25rem;
+	}
+}

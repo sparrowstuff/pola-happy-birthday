@@ -1,0 +1,16 @@
+@import url('/pola/css/global/normalize.css');
+@import url('/pola/css/global/variables.css');
+@import url('/pola/css/global/container.css');
+@import url('/pola/css/global/reboot.css');
+@import url('./css/global/fonts.css');
+@import url('/pola/css/global/visually-hidden.css');
+
+@import url('./css/blocks/key-frames.css');
+@import url('./css/blocks/header.css');
+@import url('./css/blocks/hero.css');
+@import url('./css/blocks/beauty-block.css');
+@import url('./css/blocks/style-block.css');
+@import url('./css/blocks/humour-block.css');
+@import url('./css/blocks/creativity-block.css');
+@import url('./css/blocks/video-block.css');
+@import url('./css/blocks/appearance-block.css');

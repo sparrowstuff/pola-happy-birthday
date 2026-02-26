@@ -1,0 +1,182 @@
+@keyframes textAppearance {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes imgAppearanceStatic {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes imgAppearanceSlideLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(30px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes imgAppearanceSlideRight {
+	0% {
+		opacity: 0;
+		transform: translateX(-30px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes imgAppearScale {
+	0% {
+		opacity: 0;
+		scale: 1.2;
+	}
+
+	100% {
+		opacity: 1;
+		scale: 1;
+	}
+}
+
+@keyframes imgAppearanceScale {
+	0% {
+		opacity: 0;
+		scale: 1.6;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes nameAnimate {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes congratulationAnimate {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes textSlideIn {
+	0% {
+		opacity: 0;
+		transform: translateX(-50%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes heartAppearance {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes imgAppearanceStatic {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes imgAppearanceSlideTop {
+	0% {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes imgAppearanceSlideBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(-30px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes imgAppearScale {
+	0% {
+		opacity: 0;
+		scale: 1.2;
+	}
+
+	100% {
+		opacity: 1;
+		scale: 1;
+	}
+}
+
+@keyframes textAppearanceSlap {
+	0% {
+		opacity: 0;
+	}
+
+	20% {
+		opacity: 1;
+		scale: 1.7;
+	}
+
+	60% {
+		scale: 1.1;
+	}
+
+	80% {
+		scale: 1.7;
+	}
+
+	100% {
+		opacity: 1;
+		scale: 1.1;
+	}
+}

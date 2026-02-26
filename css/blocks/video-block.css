@@ -1,0 +1,48 @@
+.video-block {
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.video-block__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 0.62rem;
+	align-items: center;
+}
+
+.video-block__text,
+.video-block__will-show-video,
+.video-block__i-see-you,
+.video-block__ps {
+	font-size: 1.5rem;
+	line-height: 100%;
+	font-weight: 600;
+	opacity: 0;
+}
+
+.video-block__video {
+	width: 100%;
+	max-width: 400px;
+	opacity: 0;
+	animation: textAppearance 1s ease-in 1.9s forwards;
+}
+
+.video-block.show .video-block__text {
+	opacity: 0;
+	animation: textAppearance 0.5s ease-in 0.5s forwards;
+}
+
+.video-block.show .video-block__will-show-video {
+	animation: textAppearance 0.5s ease-in 0.8s forwards;
+	opacity: 0;
+}
+
+.video-block.show .video-block__i-see-you {
+	animation: textAppearance 0.5s ease-in 1.3s forwards;
+	opacity: 0;
+}
+
+.video-block.show .video-block__ps {
+	animation: textAppearance 0.5s ease-in 1.6s forwards;
+	opacity: 0;
+}
